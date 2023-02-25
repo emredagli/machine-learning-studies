@@ -136,3 +136,5 @@ dmypy.json
 .DS_STORE
 .pytest_cache
 
+classifier_studies/data/multi-label/*
+classifier_studies/src/collected_examples
