@@ -68,6 +68,8 @@ datasets = [
 ]
 
 figure = plt.figure(figsize=(27, 9))
+figure.suptitle("Scikit Learn - Classifier Comparison", fontsize=20)
+
 i = 1
 # iterate over datasets
 for ds_cnt, ds in enumerate(datasets):
